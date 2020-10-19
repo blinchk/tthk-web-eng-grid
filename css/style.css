@@ -9,6 +9,8 @@ body {
 }
 
 #container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
     width: 75%;
     color: white;
