@@ -11,15 +11,16 @@ body {
 #container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(150px , auto));
+    gap: 10px;
     margin: 0 auto;
     width: 75%;
     color: white;
 }
 
 #container div {
-    padding: 15px;
+    padding: 30px;
     background-color: orange;
-    border: 1px solid white;
 }
 
 #container div:nth-child(even) {
